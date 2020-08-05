@@ -1,0 +1,8 @@
+#Verify the domain related stuff
+
+# On Windows
+#ns ==> name servers
+nslookup -type=ns <domain name>
+
+# To check where domain is registered, check the WHOIS database
+
